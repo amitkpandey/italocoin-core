@@ -1,0 +1,3 @@
+[submodule "italocoin"]
+	path = italocoin
+	url = https://github.com/italocoin-project/italocoin
