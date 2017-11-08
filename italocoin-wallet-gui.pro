@@ -246,9 +246,6 @@ linux {
             -Wl,-Bdynamic \
             -lGL
     }
-	CONFIG(static) {
- 	LIBS+=-ldl
- 	  }
     # currently italocoin has an issue with "static" build and linunwind-dev,
     # so we link libunwind-dev only for non-Ubuntu distros
     CONFIG(libunwind_off) {
